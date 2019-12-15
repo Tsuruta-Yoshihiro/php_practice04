@@ -11,3 +11,13 @@ function sum($max) {
     return $result;
 }
 echo sum(100);
+
+$string = "ABCDEF";
+echo strlen($string);
+
+$string = "I LOVE Ruby!";
+$new_string = str_replace("Ruby","PHP",$string);
+echo $new_string;
+
+$array = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+echo count($array);

@@ -21,4 +21,3 @@ function sum($max) {
     return $result;
 }
 echo sum(100);
-?>
